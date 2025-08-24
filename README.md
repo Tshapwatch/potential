@@ -1,4 +1,4 @@
-# Grafana Ntify Webhook integration
+# potential
 
 Integration between https://ntfy.sh/ and grafana alerting.
 
@@ -15,7 +15,7 @@ You could use grafana alerting webhooks directly with ntfy but the notification 
 
 ### Binary
 
-[Download](https://github.com/academo/grafana-alerting-ntfy-webhook-integration/releases/) the release binary and run it as a server
+[Download](https://github.com/academo/potential/releases/) the release binary and run it as a server
 
 ```bash
 grafana-ntfy -ntfy-url "https://ntfy.sh/mytopic"
@@ -71,7 +71,7 @@ services:
 
 ### Example using Docker and a non amd64 architecture
 
-The provided docket image is amd64. Should you wish to use a different architecture, you can [download the binary](https://github.com/academo/grafana-alerting-ntfy-webhook-integration/releases) and use the following docker-compose file as example
+The provided docket image is amd64. Should you wish to use a different architecture, you can [download the binary](https://github.com/academo/potential/releases) and use the following docker-compose file as example
 
 ```yaml
 version: "3"
